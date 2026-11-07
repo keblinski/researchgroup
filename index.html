@@ -29,6 +29,8 @@ h3{font-size:19px;margin:0 0 6px}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
 .card p{margin:0;font-size:16px;color:var(--mute)}
+.card.person{display:flex;gap:16px;align-items:center}
+.card.person img{width:88px;height:88px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--line)}
 .card figure{margin:14px 0 0}
 .card figure img{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--line)}
 .card figcaption{font:13px/1.45 system-ui,sans-serif;color:var(--mute);margin-top:8px}
@@ -87,7 +89,7 @@ footer{border-top:1px solid var(--line);padding:26px 20px;text-align:center;font
 <section id="people">
 <h2>People</h2>
 <div class="grid">
-<div class="card"><h3>Pawel Keblinski</h3><p>Professor and Department Head, Materials Science and Engineering</p></div>
+<div class="card person"><img src="assets/pawel-keblinski.jpg" alt="Photo of Pawel Keblinski" width="220" height="220"><div><h3>Pawel Keblinski</h3><p>Professor and Department Head, Materials Science and Engineering</p></div></div>
 <div class="card"><h3>Dr. Anoop Kushwaha</h3><p>Postdoctoral researcher since 2023. Ferroelectric domain dynamics.</p></div>
 <div class="card"><h3>D. M. Saaduzzaman</h3><p>PhD student since 2025. Interfacial modifications for property enhancement.</p></div>
 <div class="card"><h3>Adam Puchalski</h3><p>Visiting PhD student from Warsaw University of Technology, since 2026. Structural and electronic properties of vanadium oxide.</p></div>
